@@ -5,10 +5,12 @@ path = '/Users/jguerrad/Downloads/'
 l = os.listdir(path)
 def check_type():
     for e in l:
-         return e
-    print(e)
+        split_ext = e.split('.')[1]
+        filename = e.split('.')[0]
+        print(f'the file name is {filename} with the extension {split_ext}')
 
 
 
-ffiles = check_type()
-print(ffiles)
+
+
+check_type()
