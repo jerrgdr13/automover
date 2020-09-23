@@ -3,7 +3,12 @@ import os
 path = '/Users/jguerrad/Downloads/'
 
 l = os.listdir(path)
-def check_type(l):
+def check_type():
     for e in l:
-         print(e.split('.'))
-        #print(ffiles)
+         return e
+    print(e)
+
+
+
+ffiles = check_type()
+print(ffiles)
