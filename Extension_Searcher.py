@@ -10,4 +10,4 @@ for e in l:
 
 def check_ext(a,b):
     if i in range():
-        
+        pass
