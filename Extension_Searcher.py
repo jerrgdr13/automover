@@ -12,4 +12,4 @@ obj=json.loads(jsondata)
 org_path=str(obj['Origin_Path']) 
 l = os.listdir(org_path)
 for e in l:
-    print(e)
+    print(f"file name{e} and the extension is {e.split('.')[1]}")
