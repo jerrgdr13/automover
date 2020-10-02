@@ -1,6 +1,6 @@
 {
-    "Origin_Path": "/Users/jguerrad/Downloads/",
-    "dest_Path" : [
+    "origin_path": "/Users/jguerrad/Downloads/",
+    "dest_path" : [
         {
             "txt" : "/Users/jguerrad/Downloads/txt/",
             "ppt" : "/Users/jguerrad/Downloads/ppt/",
