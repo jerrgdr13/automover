@@ -1,13 +1,10 @@
 import os
+import json
 
-path = '/Users/jguerrad/Downloads/'
+#read Json file
+myjsonfile=open('./information.json','r')
+jsondata=myjsonfile.read()
 
-l = os.listdir(path)
-for e in l:
-    split_ext = e.split('.')[1]
-    filename = e
-    print(f"File name {e} and the extension is {split_ext}")
-
-def check_ext(a,b):
-    if i in range():
-        pass
+#parse Json
+obj=json.load(jsondata)
+print(str(obj['Origin_Path'])
