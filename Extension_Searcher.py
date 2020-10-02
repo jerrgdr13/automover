@@ -7,9 +7,9 @@ jsondata=myjsonfile.read()
 
 #parse Json
 obj=json.loads(jsondata)
-#print(str(obj['origin_Path']))
+#print(str(obj['origin_path']))
 
-org_path=str(obj['origin_Path']) 
+org_path=str(obj['origin_path']) 
 l = os.listdir(org_path)
 for e in l:
     if e.split('.')[1] == True:
