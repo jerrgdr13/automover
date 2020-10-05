@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 
 #read Json file
 myjsonfile=open('./information.json','r')
@@ -16,12 +17,6 @@ for e in l:
         print('Not a File')
     else:
         file_name=str(e.split('.')[0]),
-        ext_name=str(e.split('.')[1])
-        print(file_name)
-        print(ext_name)
-    #print(f"file name{e} and the extension is {e.split('.')[1]}")
-
-
-#def  ext_validator():
-#    for i in range(len(ext_lst)):
-#        print(i)
+        ext_name=str(e.split('.')[1]):
+        if ext_name == 'pptx':
+            shutil.move(dest_path,)
