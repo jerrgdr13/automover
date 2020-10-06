@@ -1,3 +1,4 @@
+#Importing OS to work with the directories and JSON to store paths and avoid hardcoded information.
 import os
 import json
 
@@ -9,10 +10,12 @@ jsondata=myjsonfile.read()
 obj=json.loads(jsondata)
 #print(str(obj['origin_path']))
 
+#Transform JSON data in to variables.
 org_path=str(obj['origin_path'])
 dst_path=str(obj['dest_path']) 
 #l = os.listdir(org_path)
 
+#This function will move the information
 def move_files(source_folder, dest_folder):
     try:
         for path, dir, files in os.walk(source_folder):
@@ -24,4 +27,5 @@ def move_files(source_folder, dest_folder):
     except Exception as e:
         print(e)
 
+#Calling the function.
 move_files(org_path,dst_path)
