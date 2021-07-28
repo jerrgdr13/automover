@@ -1,14 +1,4 @@
 {
     "origin_path": "/Users/jguerrad/Downloads/",
-    "dest_path" : [
-        {
-            "txt" : "/Users/jguerrad/Downloads/txt/",
-            "ppt" : "/Users/jguerrad/Downloads/ppt/",
-            "xlx" : "/Users/jguerrad/Downloads/xlx/",
-            "doc" : "/Users/jguerrad/Downloads/doc/",
-            "pdf" : "/Users/jguerrad/Downloads/pdf/"
-        }
-    ]
-
-
+    "dest_path" : "/Users/jguerrad/Documents/Backups/"
 }
